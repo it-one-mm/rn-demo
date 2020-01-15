@@ -15,6 +15,11 @@ const HomeScreen = ({ navigation }) => {
                 title="Go to List Demo"
                 color="#883986"
             />
+
+            <Button
+                onPress={() => navigation.navigate("Image")}
+                title="Go to Image Demo"
+            />
         </>
     );
 };
